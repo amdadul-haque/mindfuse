@@ -14,7 +14,7 @@ const Gebruikersvoorwaarden = () => {
     "Contact of Vragen: We horen graag van u! Als u vragen of opmerkingen heeft over onze diensten of de Gebruikersovereenkomst, kunt u contact met ons opnemen.Postadres:Mindfuse[Adres in Rotterdam, NL - vul specifiek adres in] "
   ]
   return (
-    <div className='w-full max-w-[970px] mx-auto pt-12 py-20 px-4 lg:px-0'>
+    <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
       <div className='flex justify-center'>
         <img src="/assets/logo.svg" alt="" />
       </div>
@@ -32,7 +32,7 @@ const Gebruikersvoorwaarden = () => {
           </div>
         </div>
       </div>
-      <div className='h-[50px] w-full bg-fuchsia-500'></div>
+      {/* <div className='h-[80px] w-full bg-transparent'></div> */}
     </div>
   )
 }

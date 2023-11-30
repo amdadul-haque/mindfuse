@@ -24,7 +24,7 @@ const Privacybeleid = () => {
     "ContactVragen, opmerkingen of klachten? Neem contact met ons op via [contact@email.com] (Vervang dit door je daadwerkelijke contact e-mailadres). "
   ]
   return (
-    <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0 pt-12 pb-24'>
+    <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
       <div className='flex justify-center'>
         <img src="/assets/logo.svg" alt="" />
       </div>

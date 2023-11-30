@@ -8,7 +8,7 @@ const Huisregels = () => {
   "Meld ongepast gedrag: Als je je oncomfortabel voelt bij een gesprek of als iemand de regels overtreedt, meld dit dan onmiddellijk via de daarvoor bestemde functie in de app.",
   "Geniet van het moment: Mindfuse is bedoeld voor authentieke, real-time gesprekken. Probeer in het hier en nu te blijven en geniet van de unieke ervaring van elk gesprek. "]
   return (
-    <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0 pt-12 pb-40'>
+    <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
       <div className='flex justify-center'>
         <img src="/assets/logo.svg" alt="" />
       </div>
