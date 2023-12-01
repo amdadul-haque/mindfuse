@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Privacybeleid = () => {
@@ -25,12 +26,14 @@ const Privacybeleid = () => {
   ]
   return (
     <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
-      <div className='flex justify-center'>
-        <img src="/assets/logo.svg" alt="" />
-      </div>
+      <Link href='/'>
+        <div className='flex justify-center'>
+          <img src="/assets/logo.svg" alt="" />
+        </div>
+      </Link>
       <div className=''>
         <h2 className='text-[24px] font-bold mt-7'>Privacybeleid</h2>
-        <div className='mt-[52px] text-[13px] font-bold'>
+        <div className='mt-10 text-[13px] font-bold'>
           <p>Privacybeleid laatst bijgewerkt: 25 april 2023</p>
           <p className='my-4'>Bij Mindfuse geloven we dat authentieke en betekenisvolle connecties het leven verrijken. In een wereld waar technologie de overhand neemt, hechten we waarde aan het beschermen van jouw privacy. Hier volgt wat we doen met de informatie die je met ons deelt.</p>
           <div className='pl-3'>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Huisregels = () => {
@@ -9,12 +10,14 @@ const Huisregels = () => {
   "Geniet van het moment: Mindfuse is bedoeld voor authentieke, real-time gesprekken. Probeer in het hier en nu te blijven en geniet van de unieke ervaring van elk gesprek. "]
   return (
     <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
-      <div className='flex justify-center'>
-        <img src="/assets/logo.svg" alt="" />
-      </div>
+      <Link href='/'>
+        <div className='flex justify-center'>
+          <img src="/assets/logo.svg" alt="" />
+        </div>
+      </Link>
       <div className=''>
         <h2 className='text-[24px] font-bold mt-7'>Huisregels</h2>
-        <div className='mt-[52px] text-[13px] font-bold'>
+        <div className='mt-10 text-[13px] font-bold'>
           <p>Huisregels voor Mindfuse</p>
           <div className='pl-3'>
             <ul>
