@@ -1,4 +1,5 @@
 'use client'
+import Logo from '@/components/Logo'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify'
@@ -42,14 +43,10 @@ const Contact = () => {
   };
   return (
     <div className='w-full max-w-[769px] mx-auto px-4 lg:px-0'>
-      <Link href='/'>
-        <div className='flex justify-center'>
-          <img src="/assets/logo.svg" alt="" />
-        </div>
-      </Link>
+      <Logo />
 
       <div className=''>
-        <h2 className='text-[24px] font-bold mt-7'>Contact</h2>
+        <h2 className='text-[24px] font-bold mt-5'>Contact</h2>
         <p className='text-[13px] font-bold'>We reageren zo snel mogelijk op uw bericht</p>
         <form onSubmit={handleButtonClick} className='mt-8 w-full'>
           <div className='w-full flex flex-col md:flex-row gap-8'>

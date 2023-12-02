@@ -1,3 +1,4 @@
+import Logo from '@/components/Logo'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,13 +17,9 @@ const Gebruikersvoorwaarden = () => {
   ]
   return (
     <div className='w-full max-w-[970px] mx-auto px-4 lg:px-0'>
-      <Link href='/'>
-        <div className='flex justify-center'>
-          <img src="/assets/logo.svg" alt="" />
-        </div>
-      </Link>
+      <Logo />
       <div className=''>
-        <h2 className='text-[24px] font-bold mt-7'>Gebruikersvoorwaarden</h2>
+        <h2 className='text-[24px] font-bold mt-5'>Gebruikersvoorwaarden</h2>
         <div className='mt-10 text-[13px] font-bold'>
           <p>Algemene VoorwaardenLaatst bijgewerkt: 25 april 2023</p>
           <p className='my-4'>Welkom bij Mindfuse! <br /> Mindfuse is een anoniem platform dat u in staat stelt om op een veilige en privé manier verbinding te maken met anderen.</p>
